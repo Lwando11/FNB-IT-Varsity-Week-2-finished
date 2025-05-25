@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+#menu-bar a{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
+    transition: 0.4s;
+}
+#menu-bar a:hover{
+    background-color: aqua;
+    color: #fff;
+    
+}
+nav {
+    height: 65px;
+    border-bottom: solid #555 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    transition: 0.4s;
+    
+}
+.nav-bar:hover {
+    color: #777;
+
+}
+.my-heroes{
+   
+    background-color: cadetblue;
+    gap: 25px;
+    
+    display: grid;
+    place-items: center;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+.my-heroes img{
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    margin: 10px;
+    transition: 0.3s;
+
+}
+.my-heroes img:hover{
+    cursor: pointer;
+    border: solid 3px #fff;
+
+}
