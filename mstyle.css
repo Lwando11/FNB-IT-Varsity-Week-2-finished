@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    height: 65px;
+    border-bottom: solid #555 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.nav-bar {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    transition: 0.4s;
+    
+}
+.nav-bar:hover {
+    color: #777;
+
+}
+.marvel {
+    background-color: aqua;   
+    display: flex;
+    
+    height: 600px;
+    
+}
+.marvel-hero {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    align-items: center;
+}
+.marvel-hero img{
+    height: 600px;
+    width: 600px;
+    object-fit: contain;
+}
+ul {
+    line-height: 1.7;
+    font-weight: 500;
+}
+.back {
+    
+    display: flex;
+    justify-items: center;
+    width: 1200px;
+    align-items: center;
+    height: 50px;
+
+}
+.back a{
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
